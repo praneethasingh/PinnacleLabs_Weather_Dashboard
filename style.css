@@ -1,11 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background: url('https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg?size=626&ext=jpg&ga=GA1.1.701544298.1717078061&semt=ais_user') no-repeat center center fixed; /* Background image */
+  background-size: cover; /* Ensure the background covers the whole page */
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
-  background: #f0f0f0;
+  height: 100vh; /* Full viewport height */
+  color: #333; /* Text color for better readability */
 }
 
 .container {
@@ -43,3 +46,6 @@ button:hover {
 .weather-info {
   margin-top: 20px;
 }
+
+
+

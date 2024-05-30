@@ -5,7 +5,7 @@ async function getWeather() {
     const city = document.getElementById('city').value;
     console.log('City:', city);
     
-    const url = 'https://api.openweathermap.org/data/2.5/weather?q=Hyderabad&appid=a578f88b1b63bfa4b25d5af27df49b24';
+    const url = 'https://api.openweathermap.org/data/2.5/weather?q=Hyderabad&appid=a578f88b1b63bfa4b25d5af27df49b24&units=metric';
     
 
 
